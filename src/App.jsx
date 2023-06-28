@@ -111,15 +111,15 @@ export default function App() {
                 <p>{note.desc}</p>
                 <button
                   onClick={() => editNote(index)}
-                  className="btn btn-info"
+                  className="btn text-info fs-5"
                 >
-                  Edit
+                <i className="fa-solid fa-edit"></i>
                 </button>
                 <button
                   onClick={() => removeNote(index)}
-                  className="btn btn-danger mx-2"
+                  className="btn text-danger "
                 >
-                  Remove
+                  <i className="fa-solid fa-trash fs-5"></i>
                 </button>
               </div>
             );
