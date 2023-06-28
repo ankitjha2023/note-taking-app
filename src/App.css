@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(92, 21, 57, 0.6558998599439776) 18%,
+    rgb(186, 221, 228) 51%,
+    rgba(171, 134, 215, 0.6755077030812324) 100%
+  );
+  font-family: "Open Sans", sans-serif;
+}
